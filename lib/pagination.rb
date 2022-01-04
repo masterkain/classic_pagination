@@ -219,7 +219,7 @@ module ActionController
         raise ArgumentError, 'must have at least one item per page' if
           items_per_page <= 0
 
-        @controller = controller
+        controller = controller
         @item_count = item_count || 0
         @items_per_page = items_per_page
         @pages = {}
