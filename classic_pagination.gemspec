@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'classic_pagination'
-  s.version     = '1.0.1'
+  s.version     = '1.0.2'
   s.summary     = "A pagination gem"
   s.description = "A pagination gem"
   s.authors     = ["Sachin Singh"]
