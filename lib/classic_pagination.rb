@@ -21,8 +21,10 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #++
 
-require 'pagination'
-require 'pagination_helper'
+require 'active_support'
+require 'action_pack'
+require_relative 'pagination'
+require_relative 'pagination_helper'
 
 ActionController::Base.class_eval do
   include ActionController::Pagination
